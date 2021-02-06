@@ -1,0 +1,586 @@
+body{
+    margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 106vh;
+	overflow: hidden;
+	/*background-image: url('backgroundImage.png');*/
+
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+.page3About{
+font-family: serif;
+}
+.top{
+    position: absolute;
+    
+}
+.middle{
+	display: block;
+	margin-top: -8vh;
+	margin-left: 0vw;
+	width: 100vw;
+	height: 107vh;
+	margin-right: -20vw;
+	margin-bottom: -4vh;
+	transition: 1s;
+	padding: 0;
+	color: #DAC826;
+
+}
+.bottom{
+	display: none;
+
+}
+
+.menu{
+	display: inline-flex;
+	position: absolute;
+	margin-top: 13vh;
+	margin-left: 7.3vw;
+	height: 4vh;
+	width: 4vw;
+	/* border: solid;
+	border-color: red; */
+	transition: 0.5s;
+	font-family: komu-a, sans-serif;
+	font-stretch: ultra-condensed;
+	font-size: 2.1vw;
+	font-weight: 100;
+	color: #25E0AA;
+	padding: 0;
+	z-index: 2;
+	
+	
+}
+
+.home {
+	display: none;
+	height: 7vh;
+	width: 10vw;
+	
+	position: absolute;
+	top: 30vh;
+	left: 45vw;
+	z-index: 1;
+	
+}
+
+.discover{
+	display: none;
+	height: 6vh;
+	width: 17vw;
+	
+	position: absolute;
+	top: 41vh;
+	left: 41.5vw;
+}
+
+.events{
+	display: none;
+	height: 6vh;
+	width: 14vw;
+	
+	position: absolute;
+	top: 52vh;
+	left: 43vw;
+	
+}
+
+.venues{
+	display: none;
+	height: 6vh;
+	width: 14vw;
+	position: absolute;
+	top: 63.5vh;
+	left: 43vw;
+	
+}
+
+.contact{
+	display: none;
+	height: 6vh;
+	width: 17vw;
+	position: absolute;
+	top: 74.5vh;
+	left: 41.5vw;
+	
+}
+
+.middleText{
+	display: inline;
+	position: absolute;
+	margin-top: 33vh;
+	margin-left: 60vw;
+	height: 15vh;
+	width: 35vw;
+	color: #DAC826;
+	font-size: 5vw;
+	font-family: komu-a, sans-serif;
+	font-stretch: ultra-condensed;
+	font-weight: 400;
+	font-style: normal;
+	
+	
+}
+
+.middleText2{
+	display: inline;
+	position: absolute;
+	margin-top: 50vh;
+	margin-left: 60vw;
+	height: 15vh;
+	width: 35vw;
+	color: #DAC826;
+	font-size: 5vw;
+	font-family: komu-a, sans-serif;
+	font-stretch: ultra-condensed;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+.middleText3{
+	display: inline;
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 60vw;
+	height: 20vh;
+	width: 40vw;
+	color: #DAC826;
+	font-size: 5vw;
+	font-family: komu-a, sans-serif;
+	font-stretch: ultra-condensed;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+.middleText4{
+	display: inline;
+	position: absolute;
+	margin-top: 70vh;
+	margin-left: 60vw;
+	height: 20vh;
+	width: 40vw;
+	color: #DAC826;
+	font-size: 5vw;
+	font-family: komu-a, sans-serif;
+	font-stretch: ultra-condensed;
+	font-weight: 400;
+	font-style: normal;
+	
+}
+
+
+.followUs{
+	color: white;
+	position: absolute;
+	font-family: komu-a, sans-serif;
+	margin-top: 70vh;
+	margin-left: 60vw;
+	height: 10vh;
+	width: 10vw;
+	font-size: 2vw;
+	font-weight: 500;
+}
+
+.instagramLink{
+	display: inherit;
+	position: absolute;
+	margin-top: 68vh;
+	margin-left: 69vw;
+	height: 8vh;
+	width: 4vw;
+}
+
+.spotifyLink{
+	display: inherit;
+	position: absolute;
+	margin-top: 68vh;
+	margin-left: 76vw;
+	height: 8vh;
+	width: 4vw;
+	
+}
+
+.twitterLink{
+	display: inherit;
+	position: absolute;
+	margin-top: 68vh;
+	margin-left: 83.1vw;
+	height: 8vh;
+	width: 4vw;
+	
+	
+}
+
+.page4OTR{
+	position: absolute;
+	margin-top: 68.8vh;
+	margin-left: 29.2vw;
+	height: 24.7vh;
+	width: 13.2vw;
+	
+}
+
+.page4S{
+	position: absolute;
+	margin-top: 68.8vh;
+	margin-left: 47vw;
+	height: 24.7vh;
+	width: 13.2vw;
+	
+}
+
+.page4E{
+	position: absolute;
+	margin-top: 68.8vh;
+	margin-left: 65vw;
+	height: 24.7vh;
+	width: 13.2vw;
+	
+}
+
+.eventsPic1{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+.eventsTitle1{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsText1{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+
+.eventsInstagram1{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsPic2{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+.eventsTitle2{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsText2{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+
+.eventsInstagram2{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsPic3{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+.eventsTitle3{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsText3{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+
+.eventsInstagram3{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsPic4{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+.eventsTitle4{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsText4{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+
+.eventsInstagram4{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsPic5{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+.eventsTitle5{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.eventsText5{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+}
+
+
+.eventsInstagram5{
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+	
+}
+
+.venuePic1{
+position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+
+	
+}
+
+		.venueTitle1{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venueText1{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venuePic2{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venueTitle2{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+		}
+		.venueText2{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venuePic3{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		.venueTitle3{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		
+		.venueText3{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venuePic4{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+		}
+		
+		
+		.venueTitle4{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venueText4{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+		
+		.venuePic5{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+		}
+		.venueTitle5{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+		}
+		
+		.venueText5{
+			
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+		}
+		
+		.contactText{
+			position: absolute;
+	margin-top: 60vh;
+	margin-left: 80vw;
+	height: 20vh;
+	width: 10vw;
+			
+		}
+
+.dots {
+	position: absolute;
+	margin-top: 72.1vh;
+	margin-left: 2vw;
+	z-index: 1;
+	
+}
+
+.dot{
+  height: 2.6vh;
+  width: 1.3vw;
+  margin: 1vh 0vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.6s ease;
+}
+
+.active{
+  background-color: #717171;
+}
+	
+
